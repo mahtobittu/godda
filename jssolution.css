@@ -1,0 +1,246 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#about{
+
+    width: 50vw;
+    height: 75vh;
+}
+
+.item1{
+    
+    grid-template-areas: 'myArea myArea . . .';
+}
+
+
+  .hamhide{
+    
+        display:none;
+    
+    }
+    
+    .ham1{
+        
+        transform: rotate(45deg);
+        margin: -1px;
+        height: 3px;
+        background-color: rgb(255, 255, 255);
+        width: 39px;
+        z-index: 1;
+    }
+    
+    .ham2{
+    
+        transform: rotate(135deg);
+        margin: -1px;
+        height: 3px;
+        background-color: rgb(255, 255, 255);
+        width: 39px;
+        z-index: 1;
+    }
+
+    #psection{
+       
+        margin: 0px;
+    }
+    
+    
+    
+    .hamRaper{    
+            
+            margin-top: 91px;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+
+        .haha{            
+            margin: 4px;
+            height: 30px;
+            background-color: rgb(255, 255, 255);
+            width: 39px;
+            z-index: 1;
+            display: none;
+            }
+        
+
+
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;   
+    color: wheat;
+}
+
+#landing{
+    
+    height: 100vh;
+    width: 100%;
+}
+
+.lalmatialogo {
+    width: 234px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px 0 40px;
+    
+} 
+
+#navbit {
+    display: flex; 
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+
+a {
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0px;
+    margin-left: 30px;
+    letter-spacing: .1em;
+    box-sizing: border-box;
+    border-bottom: 3px solid transparent;
+   
+}
+a:hover{   
+    border-bottom: 3px solid red;
+       }
+
+
+
+.arrow {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 4vh;
+    height: 0.5vh;
+    top: 10px;
+    left: 10px;
+      }
+
+
+#scroll-down-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 13vh;
+    height: 5vh;
+    text-align: center;
+    /* margin-bottom: initial; */
+    margin-top: 17vh;
+          }
+b{
+    color: #008000a3;
+}
+
+#point1 {
+    transform-origin: 0% 50%;
+    animation: anim1 .5s ease infinite alternate;
+}
+
+#point2 {
+    transform-origin: 100% 50%;
+    animation: anim2 .5s ease infinite alternate;
+}
+
+@keyframes anim1 {
+    from {
+        transform: translateX(7px) rotate(30deg);
+    }
+    to {
+        transform: translateX(4px) rotate(10deg);
+    }
+}
+
+@keyframes anim2 {
+
+    from {
+        transform: translateX(-7px) rotate(-30deg);
+    }
+    to {
+        transform: translateX(-4px) rotate(-10deg);
+    }
+}
+
+
+
+
+  #header{       
+    font-size: 25em;
+    text-align: -webkit-center;
+    text-align: center;
+    letter-spacing: .1em;
+    color: white;
+  }
+
+  .social{
+    font-size: 4.3em;
+    letter-spacing: .1em;
+    border-bottom: 1px solid white;
+    color: white;
+  }
+
+  #abt{
+    background-image: url(cosl.jpg);
+    width: 90vw;
+    height: 50vw;
+    background-position: bottom;
+    background-size: cover;
+    margin: auto;
+  }
+
+  #filt{
+
+    background-image: url(wall.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    filter: grayscale(50%) contrast(46%);
+    -webkit-filter: grayscale(50%) contrast(86%);
+    position: absolute;
+    background-color: bisque;
+    z-index: -1;
+      
+      }
+
+  main{
+
+    margin-top: 28vh;
+
+  }
+
+  .heigh{
+    
+    font-weight: 800;
+       
+  }
+
+  #section3{
+
+    background: #008000a3;
+
+  }
+
+  @media only screen and (max-width: 600px){
+    
+    #navbit{
+        display: none;
+    }
+    
+  }
+
+ 
+  
+ 
