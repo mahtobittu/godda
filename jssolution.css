@@ -116,7 +116,16 @@ b{
     width: 310px;
     height: 360px;
     background: beige;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
 
+}
+
+.cartimg{
+
+    height: 85%;
+    background-color: burlywood
 }
 
 @media screen and (max-width:900px){
@@ -134,7 +143,7 @@ b{
     }      
 
     #header{
-        font-size: 90px;
+        font-size: 85px;
     }
 
     #social{
@@ -149,6 +158,13 @@ b{
 
         flex-direction: column;
         align-items: center;
+        margin: 0px;
+
+    }
+    .cart{
+        
+        margin-top: 33px;
+        width: 100%;
     }
 }
 
