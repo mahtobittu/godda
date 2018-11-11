@@ -103,6 +103,14 @@ b{
     background-position: center;
 }
 
+#aboutGodda{
+     
+    width: 70vw;
+    font-size: x-large;
+    line-height: 33px;
+
+}
+
 .cartContainer{
 
     display:flex;
@@ -161,11 +169,30 @@ b{
         margin: 0px;
 
     }
+
+    #about{
+        font-weight: 100;
+        letter-spacing:0px;
+    }
     .cart{
         
         margin-top: 33px;
         width: 100%;
     }
+    #section2{
+        font-size: small;
+        padding:0px;
+    }
+    #aboutimg{
+        width:100%;
+    }    
+   #aboutGodda{     
+    width: 100%;
+    padding: 0 12px 0 12px;
+    text-align: justify;
+    font-size: medium;
+    line-height: 26px;
+   }
 }
 
 
