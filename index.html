@@ -9,6 +9,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="jssolution.css">    
     <script src="jssolution.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 
 </head>
 <body>  
@@ -22,10 +24,10 @@
 
             <div id="menue">
 
-                <a href="#" class="ak">Home</a>
-                <a href="#" class="ak">About</a>
-                <a href="#" class="ak">Location</a>
-                <a href="#" class="ak">temprature</a>
+                <a href="#" class="ak"><i class="fa fa-map-marker" aria-hidden="true"></i>Home</a>
+                <a href="#" class="ak"><i class="fa fa-book" aria-hidden="true"></i>About</a>
+                <a href="#" class="ak"><i class="fa fa-location-arrow" aria-hidden="true"></i>Location</a>
+                
 
             </div>
 
@@ -48,11 +50,11 @@
             <div style="display: flex; flex-direction: column; font-family: monospace;
             text-align: center;">
 
-                <h1 id="header">GODDA </h1>
+                <h1 id="header" >GODDA </h1>
                 <div id = 'social' >
-                    <span >facebook</span>
-                    <span style="padding: 0 30px 0 30px;" >twitter</span>
-                    <span >instagram</span>
+                    <span ><i class="fa fa-facebook-official" aria-hidden="true"></i>facebook</span>
+                    <span  id='twitter'><i class="fa fa-twitter-square" aria-hidden="true"></i>twitter</span>
+                    <span ><i class="fa fa-instagram" aria-hidden="true"></i>instagram</span>
                 </div>
 
             </div>
@@ -66,7 +68,8 @@
    
       <div id='section2'>        
           <h2 id='about'>ABOUT THE CITY</h2>
-         <img src="indiamap.jpg" style= 'width: 78%;' id='aboutimg'>
+     
+         <img src="indiamap.jpg"  id='aboutimg'>
          <div> 
                 <div id='aboutGodda'>
                         <p>
@@ -84,29 +87,28 @@
                        <hr style=" margin-top: 3vh;  opacity: .5;">
                 </div>
                       
-                    <div >
+                    <div id='places'>
 
-                        <h3 style="padding: 13px; font-size: 20px; text-align: center; font-family: monospace; color: #d3691f;">places to visit</h3>
-
+                            <h2 style="padding: 13px;  text-align: center; font-family: monospace; color: #d3691f;">places to visit</h2>
                             
                             <div class='cartContainer'>
 
                                 <div class='cart'>
 
-                                    <div class='cartimg'></div>
+                                    <div class='cartimg img1'></div>
                                     
                                     <div>
-                                        <p ><b>yoginiasthan</b></p>                                
+                                        <p class="cartHeader"><b>YOGANI SAKATI PITH</b></p>                                
                                     </div>
 
                                 </div>
 
                                 <div class='cart'>
 
-                                        <div class='cartimg' ></div>
+                                        <div class='cartimg img2' ></div>
                                         
                                         <div>
-                                            <p ><b>yoginiasthan</b></p>                                
+                                            <p class="cartHeader"><b>SUNDER DAM</b></p>                                
                                         </div>
             
                                 </div>
@@ -117,10 +119,10 @@
 
                                 <div class='cart'>
 
-                                    <div class='cartimg'></div>
+                                    <div class='cartimg img3'></div>
                                         
                                     <div>
-                                        <p ><b>yoginiasthan</b></p>                                
+                                        <p class="cartHeader"><b>BASANTRAI</b></p>                                
                                     </div>
 
                                 </div>
@@ -130,7 +132,7 @@
                                         <div class='cartimg'></div>
                                             
                                         <div>
-                                            <p ><b>yoginiasthan</b></p>                                
+                                            <p class="cartHeader"><b></b></p>                                
                                         </div>
                 
                                 </div>
@@ -141,13 +143,18 @@
                     
 
                     </div>
-
-                    <div>
-
-                            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57940.60909358259!2d87.17559045301111!3d24.81982042257695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f0f4d709eb7969%3A0xc912dadb4b0ad986!2sGodda%2C+Jharkhand+814133!5e0!3m2!1sen!2sin!4v1540996499216" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+                    <HR>
+                    <div style="display: flex; flex-direction: column; align-items: center;">
+                            <h2 id="reach">MAP OF DISTRIC</h2>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57940.60909358259!2d87.17559045301111!3d24.81982042257695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f0f4d709eb7969%3A0xc912dadb4b0ad986!2sGodda%2C+Jharkhand+814133!5e0!3m2!1sen!2sin!4v1540996499216" width="800" height="600" frameborder="0" style="border:0; box-shadow: 0 0 3px 0px #000000a3;" allowfullscreen id='if'></iframe>
                                 
                     </div>
-             
+        </div>
+        <footer>COPYRIGHT © 2018-2019 ALL RIGHTS RESERVED.</footer>
+        </div>
+      
+                    
+       
    
         
 
