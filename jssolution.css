@@ -177,6 +177,7 @@ b{
 }
 .cartHeader{
     margin-top: 5%;
+    color: dimgrey;
 }
 
 .img1{background-image: url(image/p1.png)}
@@ -188,6 +189,7 @@ b{
     text-align: center;
     padding: 12px 0 20px 0;
     color: chocolate;
+    font-weight: 100;
     }
 
     #if{
@@ -297,8 +299,7 @@ footer{
    }   
 
    footer{
-    height: 15vh;
-
+    height: 7vh;
    }
 
    
